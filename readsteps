@@ -1,0 +1,5 @@
+git clone https://github.com/shefalibarot/calculator.git
+composer update
+export calculatordemodb.sql file in phpmyadmin
+php artisan migrate
+php artisan db:seed
