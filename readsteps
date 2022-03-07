@@ -1,6 +1,9 @@
 git clone https://github.com/shefalibarot/calculator.git
+cd calculator
 composer update
 //export calculatordemodb.sql file in phpmyadmin OR
+make database in phpmyadmin
+add database name in .env file in DB_DATABASE
 php artisan migrate
 php artisan db:seed
 login:
