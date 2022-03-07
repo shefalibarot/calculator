@@ -1,5 +1,15 @@
 git clone https://github.com/shefalibarot/calculator.git
 composer update
-export calculatordemodb.sql file in phpmyadmin
+//export calculatordemodb.sql file in phpmyadmin OR
 php artisan migrate
 php artisan db:seed
+login:
+
+admin login:
+email  -admin@gmail.com
+password -admin1234
+
+user login:
+email -user@gmail.com
+password -user1234
+
